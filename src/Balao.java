@@ -13,5 +13,9 @@ public class Balao {
     public String voar (){
         return "voando";
     }
+    public Pessoa apresentarPessoa(Nome n1){
+        Pessoa p1 = new Pessoa (n1);
+        return p1;
+    }
 
 }
